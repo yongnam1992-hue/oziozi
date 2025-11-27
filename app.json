@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "오지 웨딩",
+    "slug": "oji-wedding",
+    "description": "결혼 준비의 모든 것. 일정 관리부터 예산, 예식장 비교까지 한 번에 해결하세요.",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.ojiwedding.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5996ea00-288b-4604-ac9c-6bce0fa38ba2"
+      }
+    },
+    "owner": "ozilee"
+  }
+}
